@@ -5,7 +5,7 @@ Pour utiliser Q-learning pour générer une carte de donjon, on doit définir l�
 notre code définit une classe __*'QLearningAgent'*__ qui représente l’algorithme Q-learning, et une classe __*'DungeonMapGenerator'*__ qui représente l’environnement dans lequel l’agent opère. La méthode __*'play'*__ de la classe __*'DungeonMapGenerator'*__ simule un jeu de génération de carte de donjon, et la méthode __*'learn'*__ de la classe __*'QLearningAgent'*__ met à jour la Q-table en fonction des récompenses reçues pendant le jeu.  
 Pour exécuter le code, on doit appeler la fonction principale __*'main'*__.  
 Pour déployer l’algorithme Q-learning pour générer une dungeon-map, nous devons exécuter la commande suivante:  
-`python Dungeon_map.py --epsilon 0.2 --map_size 5 --treasure_location (2,2) num_games 1000 `  
+`python Dungeon_map.py --epsilon 0.2 --map_size 5 --treasure_location (2,2) --num_games 1000 `  
 la sortie : Le code générera une Dungeon-map et imprimera les Q-value apprises.
 
 ### architecture de la solution
